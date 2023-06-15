@@ -1,0 +1,59 @@
+/*  */
+
+
+/* MAIN Settings */
+main {
+    /* Hintergrundbild */
+    background-image: conic-gradient(blue, yellow, green);
+    /* Hoch */
+    height: 100vh;
+    /* Breit */
+    width: 100%;
+}
+
+/* Bilder */
+img {
+    /* Hoch */
+    height: 200px;
+    /* Breit */
+    width: 200px;
+    /* Wie soll sich den Bild im Div anpassen */
+    object-fit: cover;
+    /* Animation Duration Typ Repeat */
+    animation: myAnimation 2s linear infinite;
+}
+
+@keyframes myAnimation {
+    0% {
+        /* Start Opazität */
+        filter: opacity(0.1);
+        /* Bild Gross auf start bei 250% | Drehen am anfang */
+        transform: scale(2.5) rotate(0deg);
+    }
+
+    100% {
+        /* Ende Opazität */
+        filter: opacity(1.0);
+
+        /* Bild Gross auf ende bei 100% | Drehen auf Ende */
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+/* Card 1 */
+.card-1 {
+    /* Animation-Name Zeit Typ Wiederholung Zuruck-Wiederholung */
+    animation: moveAnimation 6s linear infinite alternate-reverse;
+}
+
+@keyframes moveAnimation {
+    0% {
+        /* Start position auf X-Anchor */
+        transform: translateX(0%);
+    }
+
+    100% {
+        /* Ende position auf X-Anchor */
+        transform: translateX(100%);
+    }
+}

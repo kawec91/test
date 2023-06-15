@@ -1,0 +1,181 @@
+/* */
+* {
+    /* äußeren Randabstand */
+    margin: 0;
+    /* inneren Randabstand */
+    padding: 0;
+}
+
+main {
+    /* Teilt Bereich auf Grid */
+    display: grid;
+    /* Erstellt 2 Spaltig in Grid */
+    grid-template-columns: 30% 70%;
+    /* Hoch */
+    max-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    /* Breit */
+    width: 100%;
+    /* Hoch */
+    max-height: 100vh;
+    /* Hintergrundfarbe */
+    background-color: aquamarine;
+    /* Andern Haupt standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Andern Haupt standardelemente richtung row auf column */
+    flex-direction: column;
+    /* Nicht-Haupt Achse mittig gemacht */
+    align-items: center;
+    /* Haubt Achse Abstand zwischen elemente */
+    justify-content: space-between;
+    /* inneren Randabstand */
+    padding-top: 50px;
+    /* inneren Randabstand */
+    padding-bottom: 50px;
+}
+
+/* Small DIV */
+.small-div {
+    /* Breit */
+    width: 200px;
+    /* Hoch */
+    height: 150px;
+    /* Hintergrundfarbe */
+    background-color: darkkhaki;
+}
+
+/* Main Content */
+.main-content {
+    /* Teilt Bereich auf Grid */
+    display: grid;
+    /* Erstellt 3 Spaltig in Grid */
+    grid-template-columns: repeat(3, 1fr);
+    /* Erstellt gleiche hohe fur Zeile */
+    grid-template-rows: repeat(4, 1fr);
+    /* Hoch */
+    height: 100vh;
+    /* Hintergrundfarbe */
+    background-color: bisque;
+    /* Abstand zwischen alle elemente im main */
+    gap: 20px;
+    /* inneren Randabstand */
+    padding: 20px;
+}
+
+
+/* Box 1 */
+.box1 {
+    /* Hoch */
+    height: 100%;
+    /* Breit */
+    width: 100%;
+    /* Hintergrundfarbe */
+    background-color: aqua;
+    /* Spalte Start */
+    grid-column-start: 1;
+    /* Spalte Ende */
+    grid-column-end: 2;
+    /* Zeile Start */
+    grid-row-start: 1;
+    /* Zeile Ende */
+    grid-row-end: 2;
+}
+
+/* Box 2 */
+.box2 {
+    /* Hoch */
+    height: 100%;
+    /* Breit */
+    width: 100%;
+    /* Hintergrundfarbe */
+    background-color: aqua;
+    /* Spalte Start */
+    grid-column-start: 3;
+    /* Spalte Ende */
+    grid-column-end: 4;
+    /* Zeile Start */
+    grid-row-start: 1;
+    /* Zeile Ende */
+    grid-row-end: 2;
+}
+
+/* Box 3 */
+.box3 {
+    /* Hoch */
+    height: 100%;
+    /* Breit */
+    width: 100%;
+    /* Hintergrundfarbe */
+    background-color: aqua;
+    /* Spalte Start */
+    grid-column-start: 2;
+    /* Spalte Ende */
+    grid-column-end: 3;
+    /* Zeile Start */
+    grid-row-start: 2;
+    /* Zeile Ende */
+    grid-row-end: 3;
+    /* Andern Haupt standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+    /* Nicht-Haupt Achse mittig gemacht */
+    align-items: center;
+}
+
+/* Box 4 */
+.box4 {
+    /* Hoch */
+    height: 100%;
+    /* Breit */
+    width: 100%;
+    /* Hintergrundfarbe */
+    background-color: aqua;
+    /* Spalte Start */
+    grid-column-start: 3;
+    /* Spalte Ende */
+    grid-column-end: 4;
+    /* Zeile Start */
+    grid-row-start: 2;
+    /* Zeile Ende */
+    grid-row-end: 3;
+}
+
+/* Box 5 */
+.box5 {
+    /* Hoch */
+    height: 100%;
+    /* Breit */
+    width: 100%;
+    /* Hintergrundfarbe */
+    background-color: aqua;
+    /* Spalte Start */
+    grid-column-start: 1;
+    /* Spalte Ende */
+    grid-column-end: 2;
+    /* Zeile Start */
+    grid-row-start: 3;
+    /* Zeile Ende */
+    grid-row-end: 4;
+}
+
+/* Box 6 */
+.box6 {
+    /* Hoch */
+    height: 100%;
+    /* Breit */
+    width: 100%;
+    /* Hintergrundfarbe */
+    background-color: aqua;
+    /* Spalte Start */
+    grid-column-start: 3;
+    /* Spalte Ende */
+    grid-column-end: 4;
+    /* Zeile Start */
+    grid-row-start: 4;
+    /* Zeile Ende */
+    grid-row-end: 5;
+}

@@ -1,0 +1,64 @@
+/*  */
+
+
+/* MAIN Settings */
+main {
+    /* Teilt Bereich auf Grid */
+    display: grid;
+    /* Erstellt 3 Spaltig in Grid */
+    grid-template-columns: repeat(3, 1fr);
+    /* Erstellt gleiche hoh fur Zeile */
+    grid-template-rows: repeat(3, 200px);
+}
+
+/* Standard Hoch, Breit und Scroll fur jede div element */
+div {
+    /* Hoch */
+    height: 100%;
+    /* Breit */
+    width: 100%;
+    /* Bei zu wenig platz fur text, scroll wird aktiv */
+    overflow: auto;
+}
+
+/* Card 1 */
+.card-1 {
+    /* Spalte Start */
+    grid-column-start: 1;
+    /* Spalte Ende */
+    grid-column-end: 4;
+    /* Zeile Start */
+    grid-row-start: 1;
+    /* Zeile Ende */
+    grid-row-end: 2;
+    /* Hintergroundfarbe */
+    background-color: brown;
+}
+
+/* Card 2 */
+.card-2 {
+    /* Spalte Start */
+    grid-column-start: 1;
+    /* Spalte Ende */
+    grid-column-end: 2;
+    /* Zeile Start */
+    grid-row-start: 2;
+    /* Zeile Ende */
+    grid-row-end: 4;
+    /* Hintergroundfarbe */
+    background-color: aqua;
+}
+
+/* Card 3 */
+.card-3 {
+    /* Spalte Start */
+    grid-column-start: 3;
+    /* Spalte Ende */
+    grid-column-end: 4;
+    /* Zeile Start */
+    grid-row-start: 2;
+    /* Zeile Ende */
+    grid-row-end: 4;
+    /* Hintergroundfarbe */
+    background-color: darkkhaki;
+}

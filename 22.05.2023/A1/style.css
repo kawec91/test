@@ -1,0 +1,37 @@
+/*  */
+
+
+/* MAIN Settings */
+main {
+    /* Andern standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Bei nicht genug platz, alle elemente auf mehrere zeile teilen */
+    flex-wrap: wrap;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+}
+
+/* Standard Hoch, Breit und Scroll fur jede div element */
+div {
+    /* Hoch */
+    height: 200px;
+    /* Breit */
+    width: 200px;
+    /* Bei zu wenig platz fur text, scroll wird aktiv */
+    overflow: auto;
+}
+
+/* Hintergrundfarbe 1 */
+.bg-color-aqua {
+    background-color: aqua;
+}
+
+/* Hintergrundfarbe 2 */
+.bg-color-chartreuse {
+    background-color: chartreuse;
+}
+
+/* Hintergrundfarbe 3 */
+.bg-color-deeppink {
+    background-color: deeppink;
+}

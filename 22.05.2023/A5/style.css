@@ -1,0 +1,43 @@
+/*  */
+
+
+/* MAIN Settings */
+main {
+    /* Andern standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Bei nicht genug platz, alle elemente auf mehrere zeile teilen */
+    flex-wrap: wrap;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+}
+
+/* Standard Hoch, Breit und Scroll fur jede div element */
+div {
+    /* Hoch */
+    height: 200px;
+    /* Breit */
+    width: 200px;
+}
+
+/* Bilder */
+img {
+    /* Hoch */
+    width: 100%;
+    /* Breit */
+    height: 100%;
+    /* Wie soll sich den Bild im Div anpassen */
+    object-fit: cover;
+    /* runden Ecken */
+    border-radius: 12px;
+}
+
+.img-container {
+    /* Rahme (Breit Type Farbe) */
+    border: 3px solid red;
+    /* inneren Randabstand */
+    padding: 5px;
+    /* äußeren Randabstand */
+    margin: 5px;
+    /* Schatten (X Y Grosse Farbe)*/
+    box-shadow: 0px 0px 10px black;
+}

@@ -1,0 +1,46 @@
+/*  */
+
+
+/* MAIN Settings */
+main {
+    /* Andern standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Bei nicht genug platz, alle elemente auf mehrere zeile teilen */
+    flex-wrap: wrap;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+    /* Abstand zwischen elemente */
+    gap: 15px;
+}
+
+/* Standard Hoch, Breit und Scroll fur jede div element */
+div {
+    /* Hoch */
+    height: 300px;
+    /* Breit */
+    width: 300px;
+}
+
+/* Bilder */
+img {
+    /* Hoch */
+    width: 100%;
+    /* Breit */
+    height: 100%;
+    /* Wie soll sich den Bild im Div anpassen */
+    object-fit: cover;
+}
+
+/* Card 1 */
+.card-1:hover img {
+    filter: sepia(1) brightness(60%);
+    border-radius: 50%;
+
+}
+
+/* Card 2 */
+.card-2:hover img {
+    filter: sepia(2) brightness(140%);
+    border-radius: 50%;
+
+}

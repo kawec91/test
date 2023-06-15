@@ -1,0 +1,111 @@
+/*  */
+
+/* Main */
+main {
+    /* Andern Haupt standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Andern Haupt standardelemente richtung row auf column */
+    flex-direction: column;
+    /* Abstand zwischen alle elemente im main */
+    gap: 20px;
+}
+
+.standard-grid {
+    /* Teilt Bereich auf Grid */
+    display: grid;
+    /* Erstellt 2 Spaltig in Grid */
+    grid-template-columns: repeat(2, 1fr);
+    /* Element Inner Abstand */
+    padding: 10px;
+}
+
+.my-text-algin {
+    text-align: right;
+}
+
+/* DIV 1 BACKGROUND COLORS */
+/* Hintergrundfarbe 1 */
+.bg-color-aqua {
+    background-color: aqua;
+}
+
+/* Hintergrundfarbe 2 */
+.bg-color-chartreuse {
+    background-color: chartreuse;
+}
+
+/* Hintergrundfarbe 3 */
+.bg-color-deeppink {
+    background-color: deeppink;
+}
+
+/* DIV 2 BACKGROUND COLORS */
+/* Hintergrundfarbe 1 */
+.bg-color-blue {
+    background-color: blue;
+}
+
+/* Hintergrundfarbe 2 */
+.bg-color-chocolate {
+    background-color: chocolate;
+}
+
+/* Hintergrundfarbe 3 */
+.bg-color-cornflowerblue {
+    background-color: cornflowerblue;
+}
+
+/* DIV 3 BACKGROUND COLORS */
+/* Hintergrundfarbe 1 */
+.bg-color-darkgoldenrod {
+    background-color: darkgoldenrod;
+}
+
+/* Hintergrundfarbe 2 */
+.bg-color-crimson {
+    background-color: crimson;
+}
+
+/* Hintergrundfarbe 3 */
+.bg-color-darkorchid {
+    background-color: darkorchid;
+}
+
+/* DIV 4 BACKGROUND COLORS */
+/* Hintergrundfarbe 1 */
+.bg-color-darkkhaki {
+    background-color: darkkhaki;
+}
+
+/* Hintergrundfarbe 2 */
+.bg-color-greenyellow {
+    background-color: greenyellow;
+}
+
+/* Hintergrundfarbe 3 */
+.bg-color-moccasin {
+    background-color: moccasin;
+}
+
+/* DIV 5 BACKGROUND COLORS */
+/* Hintergrundfarbe 1 */
+.bg-color-orangered {
+    background-color: orangered;
+}
+
+/* INPUT BACKROUND COLORS */
+.bg-color-lightsalmon {
+    background-color: lightsalmon;
+}
+
+.bg-color-lightgreen {
+    background-color: lightgreen;
+}
+
+.bg-color-plum {
+    background-color: plum;
+}
+
+.bg-color-skyblue {
+    background-color: skyblue;
+}

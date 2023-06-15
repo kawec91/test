@@ -1,0 +1,74 @@
+/* */
+* {
+    /* äußeren Randabstand */
+    margin: 0;
+    /* inneren Randabstand */
+    padding: 0;
+}
+
+main {
+    /* Teilt Bereich auf Grid */
+    display: grid;
+    /* Erstellt 2 Spaltig in Grid */
+    grid-template-columns: 30% 70%;
+    /* Hoch */
+    max-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    /* Breit */
+    width: 100%;
+    /* Hoch */
+    min-height: 100vh;
+    /* Hintergrundfarbe */
+    background-color: aquamarine;
+}
+
+/* Main Content */
+.main-content {
+    /* Andern Haupt standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+    /* Nicht-Haupt Achse mittig gemacht */
+    align-items: center;
+    /* Breit */
+    width: 100%;
+    /* Hoch */
+    height: 100vh;
+    /* Hintergrundfarbe */
+    background-color: bisque;
+}
+
+/* Box Wrapper */
+.box-wrapper {
+    /* Andern Haupt standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Hintergrundfarbe */
+    background-color: azure;
+    /* inneren Randabstand */
+    padding: 15px;
+    /* Abstand zwischen alle elemente im main */
+    gap: 15px;
+}
+
+/* Box 1 */
+.box1 {
+    /* Hoch */
+    height: 400px;
+    /* Breit */
+    width: 250px;
+    /* Hintergrundfarbe */
+    background-color: cadetblue;
+}
+
+/* Box 2 */
+.box2 {
+    /* Hoch */
+    height: 400px;
+    /* Breit */
+    width: 250px;
+    /* Hintergrundfarbe */
+    background-color: cadetblue;
+}

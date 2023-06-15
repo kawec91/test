@@ -1,0 +1,40 @@
+/*  */
+
+
+/* MAIN Settings */
+main {
+    /* Hintergrundfarbe */
+    background-color: skyblue;
+    /* Hoch */
+    height: 100vh;
+}
+
+/* Lorem 1 */
+.lorem1 {
+    /* Hintergrundbild */
+    background-image: linear-gradient(to right bottom, khaki, pink, blueviolet);
+    /* Schriftgröße */
+    font-size: 150%;
+    /* Zeilenhöhe */
+    line-height: 180%;
+}
+
+/* Lorem 2 */
+.lorem2 {
+    /* Hintergrundbild */
+    background-image: radial-gradient(circle at center center, red, yellow, orange, blueviolet);
+    /* Schriftgröße */
+    font-size: 120%;
+    /* Zeilenhöhe */
+    line-height: 150%;
+}
+
+/* Lorem 3 */
+.lorem3 {
+    /* Hintergrundbild */
+    background-image: conic-gradient(blue, yellow, green);
+    /* Schriftgröße */
+    font-size: 100%;
+    /* Zeilenhöhe */
+    line-height: 120%;
+}

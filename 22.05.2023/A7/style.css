@@ -1,0 +1,102 @@
+/*  */
+
+
+/* MAIN Settings */
+main {
+    /* Teilt Bereich auf Grid */
+    display: grid;
+    /* Erstellt 3 Spaltig in Grid */
+    grid-template-columns: repeat(3, 1fr);
+    /* Erstellt gleiche hoh fur Zeile */
+    grid-template-rows: repeat(3, 1fr);
+    /* Abstand zwischen alle elemente im main */
+    gap: 10px;
+}
+
+/* Standard Hoch, Breit und Scroll fur jede div element */
+div {
+    /* Hoch */
+    height: 100%;
+    /* Breit */
+    width: 100%;
+}
+
+/* Bilder */
+img {
+    /* Hoch */
+    width: 100%;
+    /* Breit */
+    height: 50%;
+    /* Wie soll sich den Bild im Div anpassen */
+    object-fit: cover;
+}
+
+/* Card 1 */
+.card-1 {
+    /* Spalte Start */
+    grid-column-start: 1;
+    /* Spalte Ende */
+    grid-column-end: 2;
+    /* Zeile Start */
+    grid-row-start: 1;
+    /* Zeile Ende */
+    grid-row-end: 2;
+    /* Hintergrundfarbe */
+    background-color: aqua;
+}
+
+/* Card 2 */
+.card-2 {
+    /* Spalte Start */
+    grid-column-start: 3;
+    /* Spalte Ende */
+    grid-column-end: 4;
+    /* Zeile Start */
+    grid-row-start: 1;
+    /* Zeile Ende */
+    grid-row-end: 3;
+    /* Hintergrundfarbe */
+    background-color: chocolate;
+}
+
+/* Card 3 */
+.card-3 {
+    /* Spalte Start */
+    grid-column-start: 2;
+    /* Spalte Ende */
+    grid-column-end: 3;
+    /* Zeile Start */
+    grid-row-start: 2;
+    /* Zeile Ende */
+    grid-row-end: 3;
+    /* Hintergrundfarbe */
+    background-color: chartreuse;
+}
+
+/* Card 4 */
+.card-4 {
+    /* Spalte Start */
+    grid-column-start: 1;
+    /* Spalte Ende */
+    grid-column-end: 3;
+    /* Zeile Start */
+    grid-row-start: 3;
+    /* Zeile Ende */
+    grid-row-end: 4;
+    /* Hintergrundfarbe */
+    background-color: darkcyan;
+}
+
+/* Card 5 */
+.card-5 {
+    /* Spalte Start */
+    grid-column-start: 3;
+    /* Spalte Ende */
+    grid-column-end: 4;
+    /* Zeile Start */
+    grid-row-start: 3;
+    /* Zeile Ende */
+    grid-row-end: 4;
+    /* Hintergrundfarbe */
+    background-color: deeppink;
+}

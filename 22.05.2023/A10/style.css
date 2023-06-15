@@ -1,0 +1,69 @@
+/* Header Settings */
+header {
+    /* Andern standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Bei nicht genug platz, alle elemente auf mehrere zeile teilen */
+    flex-wrap: wrap;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+    /* Nicht-Haupt Achse mittig gemacht */
+    align-items: center;
+    /* Inner Abstand */
+    padding: 15px;
+}
+
+.header-div {
+    /* Breit */
+    max-width: 150px;
+}
+
+/* MAIN Settings */
+main {
+    /* Andern standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Bei nicht genug platz, alle elemente auf mehrere zeile teilen */
+    flex-wrap: wrap;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+    /* Abstand zwischen elemente */
+    gap: 15px;
+}
+
+/* Standard Hoch, Breit und Scroll fur jede div element */
+div {
+    /* Hoch */
+    height: 100%;
+    /* Breit */
+    width: 100%;
+}
+
+/* Bilder */
+main img {
+    /* Breit */
+    width: 300px;
+    /* Wie soll sich den Bild im Div anpassen */
+    object-fit: cover;
+}
+
+/* Card 1 */
+.card-1 {
+    /* Breit */
+    width: 300px;
+}
+
+/* Card 2 */
+.card-2 {
+    /* Breit */
+    width: 300px;
+}
+
+
+/*** Kontakt.html ***/
+.kontakt-card {
+    /* Andern standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Andern Haupt standardelemente richtung row auf column */
+    flex-direction: column;
+    /* Breit */
+    width: 300px;
+}

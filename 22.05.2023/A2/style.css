@@ -1,0 +1,36 @@
+/*  */
+
+
+/* MAIN Settings */
+main {
+    /* Andern standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Bei nicht genug platz, alle elemente auf mehrere zeile teilen */
+    flex-wrap: wrap;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+    /* Hintergrundfarbe fur element main */
+    background-image: conic-gradient(blue, yellow, green);
+    /* Hoch */
+    height: 100vh;
+}
+
+/* Standard Hoch, Breit und Scroll fur jede div element */
+div {
+    /* Hoch */
+    height: 200px;
+    /* Breit */
+    width: 300px;
+    /* Bei zu wenig platz fur text, scroll wird aktiv */
+    overflow: auto;
+}
+
+/* Hintergrundfarbe 1 */
+.bg-linear-gradient-1 {
+    background-image: linear-gradient(to left bottom, white, lightblue, orange);
+}
+
+/* Hintergrundfarbe 2 */
+.bg-linear-gradient-2 {
+    background-image: linear-gradient(to right bottom, khaki, pink, blueviolet);
+}

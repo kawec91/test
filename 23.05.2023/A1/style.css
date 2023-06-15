@@ -1,0 +1,101 @@
+/* */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main */
+main {
+    /* Hoch */
+    max-height: 100%;
+}
+
+.box1 {
+    /* Hintergrundfarbe */
+    background-color: aqua;
+    /* inneren Randabstand */
+    padding-left: 10%;
+    /* inneren Randabstand */
+    padding-right: 10%;
+    /* inneren Randabstand */
+    padding-top: 10%;
+    /* inneren Randabstand */
+    padding-bottom: 10%;
+    /* Andern Haupt standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+    /* Nicht-Haupt Achse mittig gemacht */
+    align-items: center;
+}
+
+.box2 {
+    /* Hintergrundfarbe */
+    background-color: darkmagenta;
+    /* inneren Randabstand */
+    padding-left: 20%;
+    /* inneren Randabstand */
+    padding-right: 20%;
+    /* inneren Randabstand */
+    padding-top: 10%;
+    /* inneren Randabstand */
+    padding-bottom: 10%;
+    /* Andern Haupt standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+    /* Nicht-Haupt Achse mittig gemacht */
+    align-items: center;
+}
+
+.box3 {
+    /* Hintergrundfarbe */
+    background-color: bisque;
+    /* inneren Randabstand */
+    padding-left: 25px;
+    /* inneren Randabstand */
+    padding-right: 25px;
+    /* inneren Randabstand */
+    padding-top: 10%;
+    /* inneren Randabstand */
+    padding-bottom: 10%;
+    /* Andern Haupt standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+    /* Nicht-Haupt Achse mittig gemacht */
+    align-items: center;
+    width: 600px;
+}
+
+.box4 {
+    /* Hintergrundfarbe */
+    background-color: darkcyan;
+}
+
+.box5 {
+    /* Hintergrundfarbe */
+    background-color: darkgoldenrod;
+}
+
+/* Box Container */
+.box-container {
+    /* Andern Haupt standardelemente richtung von oben nach unten zu links nach recht */
+    display: flex;
+    /* Haupt Achse mittig gemacht */
+    justify-content: center;
+    /* Nicht-Haupt Achse mittig gemacht */
+    align-items: center;
+    /* Abstand zwischen alle elemente im main */
+    gap: 25px;
+    /* Breit */
+    width: 525px;
+}
+
+/* Box Container DIVs*/
+.box-container div {
+    /* Breit */
+    width: 250px;
+    /* Hoch */
+    height: 200px;
+}
