@@ -27,6 +27,7 @@ function createTitelAndText(titel, text) {
     `;
 }
 
+//Schleife
 for (let x = 0; x < myArray.length; x++) {
   createTitelAndText(myArray[x].titel, myArray[x].text);
 }
