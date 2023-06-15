@@ -1,0 +1,24 @@
+img {
+    width: 300px;
+}
+
+.standard-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.image-wrapper {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.text-wrapper {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

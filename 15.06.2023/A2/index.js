@@ -25,9 +25,13 @@ function createText(text) {
 //Komponentfunktion
 function createImageAndText(createImageImage, createImageText, createTextText) {
   ver.innerHTML += `
-    <div>
-        ${createImage(createImageImage, createImageText)}
-        ${createText(createTextText)}
+    <div class="standard-div">
+        <div class="image-wrapper">
+            ${createImage(createImageImage, createImageText)}
+        </div>
+        <div class="text-wrapper">
+            ${createText(createTextText)}
+        </div>
     </div>
     `;
 }
