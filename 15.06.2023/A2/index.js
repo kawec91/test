@@ -8,6 +8,26 @@ const myArray = [
     bildAlt: "Country Flag",
     text: "sfdrgfhgfhgfh",
   },
+  {
+    bild: "https://images.photowall.com/products/43417/usa-flag.jpg?h=699&q=85",
+    bildAlt: "Country Flag",
+    text: "fdgjhkjsfdrgfhgfhgfh",
+  },
+  {
+    bild: "https://images.photowall.com/products/43417/usa-flag.jpg?h=699&q=85",
+    bildAlt: "Country Flag",
+    text: "kjhgfdsa",
+  },
+  {
+    bild: "https://images.photowall.com/products/43417/usa-flag.jpg?h=699&q=85",
+    bildAlt: "Country Flag",
+    text: "sfdrgfhgfhhjgkghjgfhdfghdfgdgdgfh",
+  },
+  {
+    bild: "https://images.photowall.com/products/43417/usa-flag.jpg?h=699&q=85",
+    bildAlt: "Country Flag",
+    text: "sfdrgfhgdsfsdgghjghjuyfhhjgkghjgfhdfghdfgdgdgfh",
+  },
 ];
 
 //Bausteinfunktion
