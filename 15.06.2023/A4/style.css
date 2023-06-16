@@ -1,0 +1,42 @@
+main {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.profilHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgba(0, 0, 0, 0.301);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.myClass {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.myTitel {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-color: burlywood;
+}
+
+.profilBtn {
+    grid-column-start: 2;
+    grid-column-end: -1;
+
+}
+
+input {
+    width: 100%;
+}
