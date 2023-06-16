@@ -7,7 +7,7 @@ const myArray = [
     table_klasse: "table-class-1",
     row_klasse: "row-class-1",
     product_image:
-      "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-iphone-13-pro-max-graphite-2023?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1679072989055",
+      "https://shop.bense.net/media/99/91/69/1619869052/iphone-12-purple-select-2021.png",
     product_name: "Iphone",
     menge: "67",
     preis: "499.99",
@@ -64,6 +64,11 @@ function createTable(
   ver.innerHTML += `
     <div>
         <table class="${tableKlasse}">
+        <tr>
+            <th>Product</th>
+            <th>Menge</th>
+            <th>Preis</th>
+        </tr>
             ${createTableRow(
               rowKlasse,
               image,

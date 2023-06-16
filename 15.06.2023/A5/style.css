@@ -1,4 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 img {
     width: 150px;
     height: 150px;
+}
+
+.img-wrapper {
+    text-align: center;
+    font-size: 20px;
+}
+
+.table-class-1 {
+    background-color: cadetblue;
+    color: white;
+}
+
+.table-class-1 th {
+    border: 3px solid white;
+}
+
+.table-class-2 {
+    background-color: bisque;
+}
+
+.table-class-2 th {
+    border: 3px solid black;
+}
+
+.table-class-3 {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.table-class-3 th {
+    border: 3px solid white;
+}
+
+table {
+    text-align: center;
+}
+
+table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    text-transform: uppercase;
+}
+
+table td {
+    padding-bottom: 25px;
 }
