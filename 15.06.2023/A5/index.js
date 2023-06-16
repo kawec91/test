@@ -8,3 +8,6 @@ function createImage(image) {
 function createMange(wert) {
   return `<p>W${wert}x</p>`;
 }
+function createPreis(wert) {
+  return `<p>${wert}€</p>`;
+}
