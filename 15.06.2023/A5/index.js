@@ -22,3 +22,26 @@ function createTableRow(klasse, image, productName, mengeWert, preisWert) {
     `;
 }
 //Komponentfunctionen
+function createTable(
+  tableKlasse,
+  rowKlasse,
+  image,
+  productName,
+  mengeWert,
+  preisWert
+) {
+  ver.innerHTML += `
+    <div>
+        <table class="${tableKlasse}">
+            ${createTableRow(
+              rowKlasse,
+              image,
+              productName,
+              mengeWert,
+              preisWert
+            )}
+        </table>
+    </div>
+    `;
+}
+//Schleife
