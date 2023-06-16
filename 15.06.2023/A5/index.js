@@ -5,3 +5,6 @@ const ver = document.getElementById("inhalt");
 function createImage(image) {
   return `<img src="${image}" alt="">`;
 }
+function createMange(wert) {
+  return `<p>W${wert}x</p>`;
+}
