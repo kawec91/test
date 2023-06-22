@@ -54,7 +54,7 @@ function createProfil(
         ${createText(createTextText2)}${createInput("color", createInputID2)}
         ${createText(createTextText3)}${createInput("date", createInputID3)}
         ${createText(createTextText4)}${createInput("number", createInputID4)}
-        <div style="text-algin:right;" class="profilBtn">
+        <div class="profilBtn">
             ${createButton(btnFunc, btnText)}
         </div>
     </div>

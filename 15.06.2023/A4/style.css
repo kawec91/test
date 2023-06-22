@@ -10,11 +10,12 @@ main {
     flex-direction: column;
     padding-top: 25px;
     padding-bottom: 25px;
+    font-size: 25px;
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 2px solid rgba(0, 0, 0, 0.301);
     border-radius: 50%;
     object-fit: cover;
@@ -23,20 +24,54 @@ img {
 .myClass {
     display: grid;
     grid-template-columns: 30% 70%;
+    background-color: burlywood;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
 }
 
 .myTitel {
     grid-column-start: 1;
     grid-column-end: -1;
-    background-color: burlywood;
 }
 
 .profilBtn {
     grid-column-start: 2;
     grid-column-end: -1;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
+.profilBtn button {
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.profilBtn button:hover {
+    color: black;
+    border: 1px solid black;
 }
 
 input {
-    width: 100%;
+    width: 98%;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+input:focus {
+    background-color: white;
 }

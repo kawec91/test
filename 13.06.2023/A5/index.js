@@ -14,7 +14,7 @@ function eingabe(das, was, info) {
   return `
   <div>
     <label>${das}</label>
-    <input type = "text" onchange=${was} placeholder= "${info}">
+    <input type = "text" onchange="${was}" placeholder= "${info}">
   </div>
   `;
 }
